@@ -1,0 +1,340 @@
+/*初始化*/
+html, body, div, span, h1, h2, h3, p, em, small, strong, dl, dt, dd, ol, ul, li {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  box-sizing: border-box;
+}
+em, strong, i {
+  font-style: normal;
+}
+h1, h2, h3 {
+  font-weight: normal;
+}
+
+ul, ol {
+  list-style: none;
+}
+a {
+  display: block;
+  color: #333;
+  text-decoration: none;
+}
+input, button {
+  padding: 0;
+  border: none;
+  outline: none;
+  background: none;
+}
+img {
+  vertical-align: top;
+}
+
+
+
+
+/*背景样式*/
+header {
+	margin:0;
+	padding:0;
+  overflow: hidden;
+	background:#2d9b95;
+	background:-moz-radial-gradient(center,ellipse cover,#2d9b95 0%,#0e1329 100%);
+	background:-webkit-gradient(radial,center center,0px,center center,100%,color-stop(0%,#2d9b95),color-stop(100%,#0e1329));
+	background:-webkit-radial-gradient(center,ellipse cover,#2d9b95 0%,#0e1329 100%);
+	background:-o-radial-gradient(center,ellipse cover,#2d9b95 0%,#0e1329 100%);
+	background:-ms-radial-gradient(center,ellipse cover,#2d9b95 0%,#0e1329 100%);
+	background:radial-gradient(ellipse at center,#2d9b95 0%,#0e1329 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#2d9b95',endColorstr='#0e1329',GradientType=1 );
+}
+
+
+
+/*header样式*/
+
+
+#main_nav {
+  position: absolute;
+  top: 20px;
+  right: 0;
+  width: 100px;
+  height: 50px;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/*轮播图样式*/
+.banner_box {
+  width: 100%;
+  position: absolute;
+  top: 100px;
+  left: 0;
+}
+
+.banner {
+    width: 770px;
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+
+.banner .img_list {
+    width: 4620px;
+    height: 365px;
+    overflow: hidden;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner .img_list ul {
+    width: 4620px;
+    height: 365px;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+
+.banner .img_list ul li {
+    width: 770px;
+    float: left;
+    color: white;
+}
+
+.banner .img_list ul li h1 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  height: 150px;
+  line-height: 150px;
+}
+
+.banner .img_list ul li p {
+  height: 30px;
+  line-height: 30px;
+}
+
+.banner .img_list ul li p span {
+  float: left;
+}
+
+.banner .img_list ul li p span.p_left {
+  width: 30%;
+  color: aliceblue;
+}
+
+.banner .img_list ul li p span.p_right {
+  width: 70%;
+
+}
+
+.banner .button_list {
+    width: 90px;
+    height: 20px;
+    position: absolute;
+    left: 47%;
+    bottom: -60px;
+    z-index: 9;
+}
+
+.banner .button_list span {
+    display: inline-block;
+    border-radius: 50%;
+    border-bottom: 1px solid gray;
+    background: rgba(100, 100, 100, 0.5);
+    width: 12px;
+    height: 12px;
+    margin-left: 3px;
+    cursor: pointer;
+}
+
+.on {
+    background: white !important;
+}
+
+.banner .arrow {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    position: absolute;
+    display: none;
+    background: rgba(100, 100, 100, 0.5);
+    font-size: 20px;
+    top: 50%;
+    text-align: center;
+    margin-top: -20px;
+    color: white;
+    cursor: pointer;
+}
+
+.banner .img_list:hover .arrow {
+    display: block;
+}
+
+.banner #prev {
+    left: 10px;
+}
+
+.banner #next {
+    right: 10px;
+}
+/*footer样式*/
+
+* {
+      padding: 0px;
+      margin:  0px;
+      box-sizing:border-box;
+    }
+
+    .footer {
+      position: relative;
+      padding-top: 50px;
+      background: url(../img/testimonial-bg.jpg);
+    }
+
+    #nav_top {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 100px;
+      height: 50px;
+      border-radius: 15px;
+      background-color: rgba(0, 0, 0, 0.5);
+      z-index: 999;
+      color: #fff;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    a {
+      text-decoration: none;
+    }
+    html, body {
+      width: 100%;
+      height: 100%;
+    }
+    .container {
+      width: 1200px;
+      height: 700px;
+      margin: auto;
+      
+      position: relative;
+      color: #fff;
+    }
+    .left-sec {
+      /*float: left;*/
+      width: 360px;
+      padding: 20px;
+      position: absolute;
+      left: 0;
+      top: 0;
+      background-color: rgba(0,0,0,0.5);
+    }
+    .left-sec .line {
+      height: 1px;
+      background-color: #fff;
+      margin: 30px 0;
+    }
+    .left-sec h2, .left-sec .h3-img {
+      text-align: right;
+      width: 100%;
+      height: 50px;
+      margin: 10px 0;
+    }
+    .left-sec .h3-img-2 {
+      text-align: right;
+      margin-top: 30px;
+    }
+    .left-sec img {
+      position: absolute;
+      top: 20px;
+      left: 25px;
+    }
+    .left-sec .line-img {
+      height: 1px;
+      width: 130px;
+      position: absolute;
+      top: 36px;
+      right: 20px;
+      background-color: #fff;
+    }
+    .left-sec p {
+      margin: 20px 0;
+    }
+    .left-sec a {
+      color: chartreuse;
+    }
+    .left-sec ul {
+      border-left: 1px solid #fff;
+      color:  #8d8d8d;
+    }
+
+
+
+    .skills {
+      width: 100px;
+      display: inline-block;
+    }
+    .grade-wrap {
+      display: inline-block;
+      width: 200px;
+      height: 16px;
+      line-height: 16px;
+      background-color: #606160;
+      border-radius: 5px;
+    }
+    .grade {
+      display: inline-block;
+      height: 16px;
+      background-color: aliceblue;
+      width: 0;
+      transition: width 2s;
+      border-radius: 5px;
+    }
+    .right-sec {
+      position: absolute;
+      top: 0px;
+      left: 400px;
+      padding: 20px;
+    }
+    .right-sec h3 {
+      background-color: rgba(0,0,0,0.25);
+      color: aliceblue;
+      height: 40px;
+      line-height: 40px;
+      border-radius: 5px;
+      margin: 10px 0;
+      padding-left: 28px;
+    }
+    .right-sec ol {
+      padding-left: 30px;
+      margin: 20px 0;
+    }
+    .right-sec ol li {
+      margin: 10px 0;
+      padding-left: 10px;
+    }
+    .right-sec a {
+      color: white;
+    }
+    .right-sec a:hover {
+      color: green;
+    }
+    .right-sec ol li:hover , figure:hover {
+      background-color:  rgba(255,255,255,0.6);
+      border-radius: 5px;
+      color: green;
+    }
+    .right-sec img {}
+    .right-sec figcaption {
+      height: 25px;
+      line-height: 25px;
+      padding-left: 30px;
+      display: inline-block;
+    }
+    .right-sec figure {
+      padding: 10px;
+    }
